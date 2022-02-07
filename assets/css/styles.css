@@ -1,0 +1,27 @@
+.parent {
+  border: 1px solid #DFA612;
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.origin {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.draggable {
+  background-color: #4AAE9B;
+  font-weight: normal;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.dropzone {
+  background-color: #6DB65B;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
